@@ -31,7 +31,7 @@ def imprimir_calendario(fecha_inicio, fecha_fin):
     return calendarios
 
 # Título de la aplicación
-st.title("Calendario Mensual")
+st.title("Calendario Mensual - Para Juan")
 
 # Entradas de fecha
 fecha_inicio = st.date_input("Ingrese la fecha de inicio:", value=datetime.today())
